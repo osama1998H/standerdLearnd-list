@@ -1,5 +1,5 @@
 def check_empty(l: list):
-    if len(l) == 0:
+    if not l:
         print('list is empty')
     else:
         print(l)

@@ -8,12 +8,7 @@ def common(a: list, b: list) -> list:
     Returns:
         list: [description]
     """
-    result = []
-
-    for i in a:
-        if i in b:
-            result.append(i)
-    return result
+    return [i for i in a if i in b]
 
 
-print(common([i for i in range(11)], [i for i in range(6, 15)]))
+print(common(list(range(11)), list(range(6, 15))))

@@ -1,4 +1,3 @@
 
-array = [
-    [ ['*' for col in range(6)] for col in range(4)] for row in range(3)]
+array = [[['*' for _ in range(6)] for _ in range(4)] for _ in range(3)]
 print(array)
